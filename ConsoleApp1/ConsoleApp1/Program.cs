@@ -39,6 +39,10 @@ namespace ConsoleApp1
             {
                 Console.WriteLine($"Hello {name.ToUpper()}!");
             }
+
+            names.Add("Paulina");
+
+            Console.WriteLine($"The total amount of names in the list currently is: {names.Count}");
         }
     }
 }
